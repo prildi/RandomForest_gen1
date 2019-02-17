@@ -1,17 +1,6 @@
 # RandomForest_gen1
 A simple random forest weather generator in R
 
----
-title: "Built a weather generator with Random Forest in R"
-author: "PKörner"
-date: "16th February 2019"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## What is a Weather Generator?
 
 With a Weather Generator you can generate synthetic time series of a particular site. If you run the generator twice, you will get different time series but with the same statistical characteristics. For more information  see  <https://www.ipcc-data.org/guidelines/pages/weather_generators.html>.

@@ -26,5 +26,6 @@ At first, we need read to the data, which I prefer to do with the data.table lib
 ```{r read data}
 library(data.table)
 temp<-setDF(fread("https://raw.githubusercontent.com/rkronen/Brook90_R/master/Input_data/fixed.txt"))
-str(temp)
-`
+```
+
+
